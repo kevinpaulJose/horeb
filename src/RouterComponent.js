@@ -8,6 +8,7 @@ export default function Routes() {
     <Router>
       <Route path="/home" component={HomeComponent} />
       <Route exact path="/spices" component={SpicesHomeComponent} />
+      {/* <Redirect to="home" /> */}
     </Router>
   );
 }

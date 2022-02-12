@@ -1,16 +1,13 @@
 import React from "react";
+import BandingComponent from "./BrandingComponent";
+import HeaderComponent from "./SharedComponents/HeaderComponent";
 
 class SpicesHomeComponent extends React.Component {
-  constructor(props) {
-    super(props);
-  
-  }
-
-
   render() {
     return (
       <div>
-        Spices
+        <HeaderComponent />
+        <BandingComponent />
       </div>
     );
   }
